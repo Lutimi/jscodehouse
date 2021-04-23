@@ -1,31 +1,41 @@
 
-// /// Ejercicio 1 
-const welcome = "Hola";
-
-let nombre = prompt("Ingresa tu nombre:");
-let apellido = prompt( "Ingresa tu apellido");
-
-alert(welcome + " " + nombre+" "+apellido );
 
 
+// cosigna 1
+let numero = prompt("Ingrese un numero:");
 
-//Pide datos
-let n1 = prompt('Ingresa el primer numero');
-let n2 = prompt('Ingresa el segundo numero');
-
-
-// Conversion a int 
-let n1Int = parseInt(n1);
-let n2Int = parseInt(n2);
+if ( numero > 1000){
+    alert("Este numero es mayor");
+}
+else{
+    console.log("No vasa ver este mensaje");
+}
 
 
 
-const resultado = n1Int + n2Int;
-const resta = n1Int - n2Int;
-const multi = n1Int * n2Int;
+Hola = "Hola"
+let palabra = prompt(" Ingrese un saludo:")
 
-console.log("La suma es es:" +resultado);
-console.log("La resta es:" +resta);
-console.log("La multipicacion es :" +multi);
-alert("El resultado es:" +resultado)
+if( palabra == Hola){
+
+    alert(Hola+" "+"Como estas?" );
+}
+else{
+    console.log("No se va a mostrar nada");
+}
+ let numero2 = prompt("ingrese un numero:")
+
+if (  numero > 10  && numero < 50) {
+
+    alert("Este numero se encuentra en el rango");
+
+}
+else{
+    console.log("No se encuentra en el rango")
+}
+
+
+
+
+
 
