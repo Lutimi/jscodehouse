@@ -1,5 +1,4 @@
 
-
 function solicitarNombre(){
     let nombreIngresado   = prompt("Ingresar nombre");
     console.log("El nombre ingresado es " + nombreIngresado);
@@ -21,7 +20,7 @@ function convertir(dolar){
 }
 
 var menu =true;
-console.log("Bienvenido a TuVencidario \nApp desarrollada para la seguridad de tu condominio\n1 Registro\n2 Promedio\n3 Total de personas\n0 Salir")
+console.log("Bienvenido a TuVencidario \nApp desarrollada para la seguridad de tu condominio\n1 Registro\n2 Convertor divisas \n0 Salir")
 
 while( menu ){
 
